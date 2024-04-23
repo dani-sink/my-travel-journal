@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+  margin: 0;
+}
+
+.hero-container {
+  /* background-image: url('/src/images/backg-img3.jpg'); */
+  background: linear-gradient(#EFFFFA, #FEE9D7, #FFEBEF);
+  background-size:contain;
+  background-position: center;
+}
+
+#earth-logo {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+#loc-logo {
+  width: 1.0rem;
+  height: 1.4rem;
+}
+
+
+.first-line {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.first-line p {
+  margin: 0 1.6rem 0 0.6rem;
+  color: #2B283A;
+}
+.first-line a {
+  color: #918E9B;
+}
+
+
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  color: #ffffff;
+  height: 10vh;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #2B283A;
+}
+
+.nav-container p {
+  margin-left: 1.1rem;
+}
+
+.dest-img {
+  margin: 5vh 0;
+  width: 40%;
+  height: 40%;
+  border-radius: 5px;
+  margin-right: 3rem;
+  border: 5px solid #2B283A
+}
+
+.dest-container {
+  display: flex;
+  margin: 0 10vh;
+  justify-content: center;
+}
+
+.dest-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dest-description h1{
+  font-size: 2.9rem;
+  color: #2B283A;
+  font-weight: 700;
+  margin: 0.7rem 0 0.7rem 0 ;
+}
+
+.dest-description h2 {
+  color: #2B283A;
+}
+
+.text-description{
+  width: 32rem;
+  margin: 0;
+}
+
+.dest-box hr {
+  width: 130vh;
+  color: #F5F5F5;
+  border: 1px solid #2B283A;
+}
