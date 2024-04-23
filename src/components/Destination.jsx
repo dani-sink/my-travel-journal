@@ -5,7 +5,7 @@ export default function Destination(props) {
                 <img src={props.item.imageUrl} alt="Arc de Triomphe" className="dest-img" />
                 <div className="dest-description">
                     <div className="first-line">
-                        <img src="/src/images/loca-logo.jpg" alt={props.item.title} id="loc-logo"/>
+                        <img src="/src/images/loca-logo1.jpg" alt={props.item.title} id="loc-logo"/>
                         <p>{props.item.location}</p>
                         <a href={props.item.googleMapsUrl} target="_blank">View on Google Maps</a>
                     </div>
