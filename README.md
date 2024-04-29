@@ -1,11 +1,11 @@
-# digital-card-project-react
+# travel-journal-project-react
 
 Project: Travel journal
 
 A travel journal which includes a list of places visited, possible activities and their overall descriptions.
 Project Screen Shot(s)
 
-<!-- ![alt text](Digital-Card-Screenshot.png) -->
+![alt text](/src/images/Travel-Journal.png)
 
 Installation and Setup Instructions
 
